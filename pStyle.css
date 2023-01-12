@@ -1,0 +1,95 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+h1 {
+    padding-top: 20px;
+    font-family: 'Permanent Marker', cursive;
+    margin-left: -18px;
+    margin-bottom: -25px;
+    font-size: 100px;
+    z-index: 1000;
+    position: relative;
+}
+
+#resume {
+    margin-top: 10px;
+    padding: 8px;
+    text-decoration: none;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    text-align:center;
+    font-weight: 200;
+    color:black;
+}
+
+#resume:hover {
+    background-color: #eeeeee;
+    transition: 0.9s;
+}
+
+.information {
+    width: 40%;
+    font-size: 15px;
+}
+
+.container {
+    max-width:fit-content;
+    position: relative;
+    margin: 0;
+    text-align: center;
+}
+
+.flex {
+    display:flex;
+    justify-content:center;
+}
+
+.imageSlideshow {
+    display: none;
+}
+
+img { 
+    vertical-align: center;
+    margin-right: 30px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: relative;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    user-select: none;
+}
+
+.next {
+    margin-right:20px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    color: rgba(0,0,0,0.8);
+}
+
+.active {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 2.5s;
+}
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
