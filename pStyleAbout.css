@@ -7,7 +7,7 @@ nav { margin-top: 50px; margin-right:10%}
 
 .navigation ul li {
     font-style: normal;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 21px;
     text-align: right;
     list-style-type: none;
@@ -25,8 +25,14 @@ a:hover { color:#4D6A6D; font-style:italic; transition: 0.2s ease;}
     justify-content: center;
 }
 
+.imageBox {
+    width: 1010px;
+    height:385px;
+    overflow:hidden;
+}
+
 img {
-    width:27%;
+    width:400px;
     display:block;
     margin-left:1%;
 }
@@ -35,22 +41,24 @@ img {
     display:block;
     background-color:#C9ADA1;
     width:200px;
+    height:385px;
     margin-left:20%;
 }
 
 h1{
+    margin-top:-1%;
     font-family: 'Inter';
     font-style: italic;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 48px;
     color: #C9ADA1;
     padding-left: 5%;
 }
 
 p {
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 17px;
     color: #4D6A6D;
     padding-left: 5%;
     margin-right:30%;
@@ -59,7 +67,7 @@ p {
 ul {padding-left: 8%;}
 
 li {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 24px;
     color: #4D6A6D;
     margin-right:15%;
@@ -67,7 +75,7 @@ li {
 
 footer {
     font-style: italic;
-    font-size: 17px;
+    font-size: 12px;
     line-height: 24px;
     color: #C9ADA1;
     margin-bottom: 6%;
