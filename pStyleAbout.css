@@ -25,14 +25,9 @@ a:hover { color:#4D6A6D; font-style:italic; transition: 0.2s ease;}
     justify-content: center;
 }
 
-.imageBox {
-    height: 500px;
-    width: 500px; 
-    overflow: hidden;
-}
-
 img {
-    width:500px;
+    width:27%;
+    display:block;
     margin-left:1%;
 }
 
