@@ -26,8 +26,8 @@ a:hover { color:#4D6A6D; font-style:italic; transition: 0.2s ease;}
 }
 
 .imageBox {
-    height: 300px; 
-    width: 300px; 
+    height: 500px;
+    width: 500px; 
     overflow: hidden;
 }
 
